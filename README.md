@@ -35,8 +35,8 @@ For stance classification, we achieved an F1-score of 0.636 using the CovidTwitt
 4. [Additional features dataset](Additional features dataset) - This folder contains the original dataset as provided by the organizers.
 # Citation
 If you want to us this code in your work, please add the following citation -
-# Task Details
-## 7th Social Media Mining for Health Applications (#SMM4H) workshop - Stance & Premise Classification Shared Task
+## Task Details
+# 7th Social Media Mining for Health Applications (#SMM4H) workshop - Stance & Premise Classification Shared Task
 Participants will be provided with labeled training set containing texts from Twitter about three health mandates related to COVID-19 pandemic:
 
 Face Masks
@@ -45,35 +45,42 @@ School closures
 Participants have an option to take part in one or two subtasks. All participants will be invited to submit papers and present their results at the SMM4H 2022 workshop (see COLING'22 for more information on dates)
 
  
-
-# Data
-
+<details>
+<summary>Data</summary>
+<br>
 We will provide participants with manually labeled tweets for training, validation and testing. The train set for stance detection subtask is based on a COVID-19 stance detection dataset (Glandt et al., 2021).
 
 Train: 3669 tweets
 Validation: 600 tweets
 Test: 2000 tweets
+</details>
+
+<details>
+<summary>Contact</summary>
  
-
-# Contact: 
-
+<br>
 [Elena Tutubalina, Insilico Medicine, Hong Kong](tutubalinaev@gmail.com)
 
 [Vera Davydova](veranchos@gmail.com) 
 
 [Codalab](https://codalab.lisn.upsaclay.fr/competitions/5067)
+</details>
 
-# Subtask 2a. Stance Detection
-
+<details>
+<summary> Subtask 2a. Stance Detection </summary>
+<br>
+    
 The designed system for this subtask should be able to determine the point of view (stance) of the text’s author in relation to the given claim (e.g., wearing a face mask). The tweets in the training dataset are manually annotated for stance according to three categories: in-favor, against, and neither. Given a tweet, participants of this subtask will be required to submit three classes annotations:
 
 FAVOR – positive stance
 AGAINST – negative stance
 NEITHER – neutral/unclear/irrelevant stance 
- 
+</details>
 
-# Subtask 2b. Premise Classification
-
+<details>
+<summary> Subtask 2b. Premise Classification </summary> 
+<br>
+    
 The second subtask is to predict whether at least one premise/argument is mentioned in the text. A given tweet is considered as having a premise if it contains a statement that can be used as an argument in a discussion. For instance, the annotator could use it to convince an opponent about the given claim.
 
 Given a tweet, participants of this subtask will be required to submit only the binary annotations:
@@ -81,14 +88,22 @@ Given a tweet, participants of this subtask will be required to submit only the 
 1 – tweet contains a premise (argument)
 0 – tweet doesn't contain a premise (argument) 
 
-# Useful links
+</details>
 
+<details>
+<summary> Useful links </summary> 
+<br>
+    
 COVID-19 Stance Detection dataset (Glandt et al., 2021) is available here: 
 
 https://github.com/kglandt/stance-detection-in-covid-19-tweets
+</details>
 
 
-
-# References
-
+<details>
+<summary> References </summary> 
+<br>
 (Glandt et al., 2021) Glandt, K., Khanal, S., Li, Y., Caragea, D., & Caragea, C. (2021, January). Stance detection in COVID-19 tweets. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Vol. 1). 
+
+</details> 
+
