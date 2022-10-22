@@ -1,4 +1,4 @@
-# [Team enolp musk@SMM4H’22 : Leveraging Pre-trained Language Models for Stance And Premise Classification]()
+# [Team enolp musk@SMM4H’22 : Leveraging Pre-trained Language Models for Stance And Premise Classification](https://aclanthology.org/2022.smm4h-1.42/)
 This repository contains our approaches on the Shared Task "Classification of Stance & Premise in tweets about health mandates related to COVID-19 (in English)" at the [7th Social Media Mining for Health Applications (#SMM4H) workshop](https://healthlanguageprocessing.org/smm4h-2022/) at COLING 2022
 
 # Authors - Millon Madhur Das, Archit Mangrulkar, Ishan Manchanda, Manav Nitin Kapadnis, Sohan Patnaik
