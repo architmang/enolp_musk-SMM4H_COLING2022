@@ -14,7 +14,7 @@ The baseline code repository of the task can be found [here](https://github.com/
 5.[Citation](#citation)\
 6.[Task Details](#task-details)
 # System Description Paper
-Our paper can be found [here]().
+Our paper can be found [here](https://aclanthology.org/2022.smm4h-1.42/).
 # Transformer Architecture
 The Transformer Architecture used by us is shown in the figure. We used the pre-trained models released by [HuggingFace](https://huggingface.co/models).\
 ![image](model_architecture.png)
