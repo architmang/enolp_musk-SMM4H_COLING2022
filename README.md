@@ -29,8 +29,8 @@ The results are as follows
 For stance classification, we achieved an F1-score of 0.636 using the CovidTwitterBERT model, while for premise classification, we achieved an F1-score of 0.664 using BART-base model on test dataset. 
 
 # File descriptions
-1. [Combined Dataset Files Creation](Combined%20Dataset%20Files%20Creation) - This folder contains python notebooks which are used to create the additional features.
-2. [Experiments](Experiments) - This folder contains the python notebooks which implements our baseline model without any additional features, model with additional features (POS and Dependency), model with tf-idf features and model with training of additional data
+1. [Additional Features Generation](Additional%20Features%20Generation) - This folder contains python notebooks which are used to create the additional features.
+2. [Codes](Codes) - This folder contains the python notebooks which implements our baseline model without any additional features, model with additional features (POS and Dependency), model with tf-idf features and model with training of additional data
 3. [train_dev_test_dataset](train_dev_test_dataset) - This folder contains the original dataset as provided by the organizers.
 4. [Additional features dataset](Additional%20features%20dataset) - This folder contains the Parts of Speech features, TF-Idf bi-gram features and dependency features for the given data
 # Citation
